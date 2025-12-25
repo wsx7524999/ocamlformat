@@ -86,5 +86,6 @@
     "documentation": "https://github.com/ocaml-ppx/ocamlformat/blob/main/ocamlformat-help.txt"
   },
   "metadata_version": "1.0",
-  "last_updated": "2025-12-25"
+  "last_updated": "2025-12-25",
+  "_comment": "Update last_updated field when metadata changes"
 }

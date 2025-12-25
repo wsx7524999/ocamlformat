@@ -7,8 +7,9 @@ This document provides guidelines for integrating OCamlFormat into Facebook open
 
 ### Using Facebook's Internal Package Manager
 ```bash
-# For internal projects
-facebook-pkg install ocamlformat
+# For internal projects, use your organization's package manager
+# Replace with actual internal tooling command
+<internal-package-manager> install ocamlformat
 ```
 
 ### Using Standard OPAM
@@ -111,8 +112,9 @@ version=0.26.2
 ## Support
 
 ### Internal Support
-- Post in the #ocaml or #developer-tools workplace groups
-- Contact the OCaml Platform team
+- Post in your organization's internal developer channels
+  (e.g., channels like #ocaml or #developer-tools if available)
+- Contact the OCaml Platform team or relevant internal support
 
 ### External Support
 - GitHub Issues: https://github.com/ocaml-ppx/ocamlformat/issues

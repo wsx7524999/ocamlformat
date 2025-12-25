@@ -44,7 +44,8 @@ CREATE TABLE IF NOT EXISTS user_feedback (
     created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
 
--- Insert sample version data
+-- Insert sample version data (update with current versions as needed)
+-- These are example values for demonstration purposes
 INSERT INTO ocamlformat_versions (version_number, release_date, is_stable, description)
 VALUES 
     ('0.26.2', '2024-03-15', 1, 'Stable release with improved formatting'),
