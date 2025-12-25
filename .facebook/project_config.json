@@ -1,0 +1,91 @@
+{
+  "project": {
+    "name": "OCamlFormat",
+    "description": "Auto-formatter for OCaml code",
+    "repository": "https://github.com/ocaml-ppx/ocamlformat",
+    "license": "MIT",
+    "language": "OCaml",
+    "category": "developer-tools"
+  },
+  "facebook_integration": {
+    "uses": [
+      {
+        "project": "infer",
+        "description": "Static analyzer used for formatting OCaml code",
+        "repository": "https://github.com/facebook/infer",
+        "integration_type": "development-tool"
+      }
+    ],
+    "maintainers": [
+      {
+        "team": "open-source",
+        "contact": "opensource@fb.com"
+      }
+    ],
+    "support_level": "community-supported",
+    "internal_usage": true
+  },
+  "versioning": {
+    "current_stable": "0.26.2",
+    "minimum_supported": "0.19.0",
+    "update_frequency": "quarterly",
+    "breaking_change_policy": "coordinated-with-community"
+  },
+  "dependencies": {
+    "build": [
+      "ocaml >= 4.08",
+      "dune >= 2.0",
+      "base-unix"
+    ],
+    "runtime": [
+      "ocaml-compiler-libs"
+    ],
+    "development": [
+      "alcotest",
+      "ocp-indent"
+    ]
+  },
+  "metrics": {
+    "stars": "500+",
+    "forks": "100+",
+    "contributors": "50+",
+    "open_issues": "50",
+    "closed_issues": "400+"
+  },
+  "compliance": {
+    "security_scanning": true,
+    "license_compliance": true,
+    "export_compliance": "not-required",
+    "third_party_review": "completed"
+  },
+  "documentation": {
+    "readme": "README.md",
+    "contributing": "CONTRIBUTING.md",
+    "code_of_conduct": "CODE_OF_CONDUCT.md",
+    "changelog": "CHANGES.md"
+  },
+  "ci_cd": {
+    "platforms": [
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "tests": {
+      "unit_tests": true,
+      "integration_tests": true,
+      "regression_tests": true
+    },
+    "deployment": {
+      "opam": true,
+      "internal_mirrors": true
+    }
+  },
+  "related_resources": {
+    "forum": "https://discuss.ocaml.org/tags/ocamlformat",
+    "issues": "https://github.com/ocaml-ppx/ocamlformat/issues",
+    "documentation": "https://github.com/ocaml-ppx/ocamlformat/blob/main/ocamlformat-help.txt"
+  },
+  "metadata_version": "1.0",
+  "last_updated": "2025-12-25",
+  "_comment": "Update last_updated field when metadata changes"
+}

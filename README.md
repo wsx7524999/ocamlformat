@@ -288,6 +288,19 @@ ml` and then running `ocamlformat` on this output.
 
 See [CONTRIBUTING](./CONTRIBUTING.md) for how to help out.
 
+## Contributors
+
+We would like to thank all the contributors who have helped make OCamlFormat better:
+
+- Community contributors who have submitted issues, bug reports, and feature requests
+- Code contributors who have submitted patches and improvements
+- Facebook's Infer team for inspiration and early adoption
+- The OCaml community for continuous feedback and support
+
+Special thanks to all individuals who have contributed code, documentation, and ideas to this project. Your contributions help make OCamlFormat a better tool for the entire OCaml ecosystem.
+
+For a complete list of contributors, see the [GitHub contributors page](https://github.com/ocaml-ppx/ocamlformat/graphs/contributors).
+
 ## License
 
 OCamlFormat is [MIT-licensed](./LICENSE.md).
